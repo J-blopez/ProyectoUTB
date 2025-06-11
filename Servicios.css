@@ -355,7 +355,7 @@ body {
     align-items: center;
     width: 100vw;
     /* Asegura el 100% del viewport horizontal */
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(211, 26, 26);
     padding: 2%;
     box-sizing: border-box;
     gap: 10px;
@@ -366,16 +366,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     box-sizing: border-box;
-    gap: 10 px;
+    gap: 10px;
 }
 
 /* Texto  */
 .text-box {
     width: 60%;
     padding: 2%;
-    background-color: #ffffff;
+    background-color: #e00808;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
     justify-content: center;
@@ -385,7 +385,7 @@ body {
 .image-box {
     width: 40%;
     padding: 2%;
-    background-color: #ffffff;
+    background-color: #db0c0c;
     display: flex;
     align-items: center;
     justify-content: center;
