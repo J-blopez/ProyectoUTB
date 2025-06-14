@@ -26,7 +26,7 @@ body {
 }
 
 .baner {
-  background: url(img/_fondo.jpeg);
+  background: url(img/fondoweb.jpeg);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -393,93 +393,6 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
-
-
-/*
-.section {
-  padding: 80px 0;
-  position: relative;
-  background-color: #d7eaea;
-}
-
-.section.light {
-  background-color: #f0f9ff;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 2.2rem;
-  color: #00A0E3;
-  position: relative;
-  padding-bottom: 15px;
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 80px;
-  height: 3px;
-  background-color: #00A0E3;
-  transform: translateX(-50%);
-}
-
-.serviceimg {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #000;
-    margin-bottom: 15px;
-}
-
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.card {
-  background:#d7eaea;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  text-align: center;
-  border-top: 10px solid transparent;
-
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  border-top-color: #00A0E3;
-}
-
-.service-icon {
-  font-size: 2.5rem;
-  color: #00A0E3;
-  margin-bottom: 20px;
-}
-
-.card h3 {
-  color: #00A0E3;
-  margin-bottom: 15px;
-  font-size: 1.4rem;
-}
-
-.card p {
-  color: #000000;
-}
-*/
-
-
-
-
 
 /* Sección nosotros */
 /* estilos tablas--------------------------------------------------*/
