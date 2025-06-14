@@ -297,17 +297,17 @@ h3 {
 
 .card-container {
   display: grid;
-  text-align: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   max-width: 1200px;
-  margin: 20px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-
 .card {
   background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -377,7 +377,7 @@ h3 {
   transition: background-color 0.3s ease;
 }
 
-.card-body button:hover {
+.button:hover {
   background-color: #2563eb;
 }
 
@@ -393,6 +393,73 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+/* Seccion del slider */
+#servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  max-width: 90%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.slider {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  width: 360px; /* Puedes ajustar este ancho */
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00A0E3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.slider-btn:hover {
+  background-color: #2563eb;
+}
+
+.slider-btn.prev {
+  left: 10px;
+}
+
+.slider-btn.next {
+  right: 10px;
+}
+
 
 /* Sección nosotros */
 /* estilos tablas--------------------------------------------------*/

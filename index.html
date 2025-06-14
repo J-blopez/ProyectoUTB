@@ -101,75 +101,110 @@
     </section>
 
     <!-- Sección de servicios -->
+
+<h2 class="section-title">Nuestros servicios</h2>
+
     <section id="servicios" class="sections">
-       <h2 class="section-title">Nuestros servicios</h2>
-        <div class="card-container">
-          <div class="card" id="consulta">
-            <div class="card-header">
-              <img src="img/consulta1.png" alt="Consulta veterinaria" />
-            </div>
-            <div class="card-body">
-              <h3>Consulta veterinaria</h3>
-              <p>Atención profesional para mantener a tu mascota saludable y feliz.</p>
-              <a href="servicios.html#consulta" class="button">Ver más...</a>
-            </div>
-          </div>
+        <div class="slider-wrapper">
+          <button class="slider-btn prev" onclick="scrollSlider(-1)">‹</button>
 
-          <div class="card" id="vacunacion">
-            <div class="card-header">
-              <img src="img/vacunacion1.png" alt="Vacunación y Desparasitación" />
+          <div class="slider" id="cardSlider">
+              <!-- Tarjeta 1 -->
+              <div class="card" id="consulta">
+                <div class="card-header">
+                  <img src="img/consulta1.png" alt="Consulta veterinaria" />
+                </div>
+                <div class="card-body">
+                  <h3>Consulta Veterinaria</h3>
+                  <p>Especialistas en atención médica veterinaria con enfoque en animales pequeños.</p>
+                  <a href="servicios.html#consulta" class="button">Ver más...</a>
+                </div>
+              </div>
+              
+              <!-- Tarjeta 2 -->
+            <div class="card" id="vacunacion">
+              <div class="card-header">
+                <img src="img/vacunacion1.png" alt="Vacunación y Desparasitación" />
+              </div>
+              <div class="card-body">
+                <h3>Vacunación y Desparasitación</h3>
+                <p>Protege a tus peluditos con nuestro esquema completo de vacunas.</p>
+                <a href="servicios.html#vacunacion" class="button">Ver más...</a>
+              </div>
             </div>
-            <div class="card-body">
-              <h3>Vacunación y Desparasitación</h3>
-              <p>Protege a tus peluditos con nuestro esquema completo de vacunas.</p>
-              <a href="servicios.html#vacunacion" class="button">Ver más...</a>
-            </div>
-          </div>
 
-          <div class="card" id="peluqueria">
-            <div class="card-header">
-              <img src="img/peluqueria1.JPG" alt="Peluquería Canina" />
+            <!-- Tarjeta 3 -->    
+            <div class="card" id="peluqueria">
+              <div class="card-header">
+                <img src="img/peluqueria1.JPG" alt="Peluquería Canina" />
+              </div>
+              <div class="card-body">
+                <h3>Peluquería Canina</h3>
+                <p>Estética, baños medicados y cortes profesionales para tu mascota.</p>
+                <a href="servicios.html#peluqueria" class="button">Ver más...</a>
+              </div>
             </div>
-            <div class="card-body">
-              <h3>Peluquería Canina</h3>
-              <p>Estética, baños medicados y cortes profesionales para tu mascota.</p>
-              <a href="servicios.html#peluqueria" class="button">Ver más...</a>
-            </div>
-          </div>
 
-          <div class="card" id="cirugia">
-            <div class="card-header">
-              <img src="img/cirugia1.png" alt="Cirugía" />
+            <!-- Tarjeta 4 -->
+            <div class="card" id="cirugia">
+              <div class="card-header">
+                <img src="img/cirugia1.png" alt="Cirugía" />
+              </div>
+              <div class="card-body">
+                <h3>Cirugía</h3>
+                <p>Deja a tus peluditos en las manos de nuestros expertos cirujanos.</p>
+                <a href="servicios.html#cirugia" class="button">Ver más...</a>
+              </div>
             </div>
-            <div class="card-body">
-              <h3>Cirugía</h3>
-              <p>Contamos con la instrumentación y espacios adecuados para realizar procedimientos con los más altos estándares de calidad.</p>
-              <a href="servicios.html#cirugia" class="button">Ver más...</a>
-            </div>
-          </div>
 
-          <div class="card" id="laboratorio">
-            <div class="card-header">
-              <img src="img/laboratorio1.png" alt="Laboratorio Clínico" />  
+            <!-- Tarjeta 5 -->
+            <div class="card" id="laboratorio">
+              <div class="card-header">
+                <img src="img/laboratorio1.png" alt="Laboratorio Clínico" />  
+              </div>
+              <div class="card-body">
+                <h3>Laboratorio Clínico</h3>
+                <p>Ofrecemos servicios de exámenes generales y especializados.</p>
+                <a href="servicios.html#laboratorio" class="button">Ver más...</a>
+              </div>
             </div>
-            <div class="card-body">
-              <h3>Laboratorio Clínico</h3>
-              <p>Ofrecemos servicios de exámenes generales y especializados.</p>
-              <a href="servicios.html#laboratorio" class="button">Ver más...</a>
-            </div>
-          </div>
 
-          <div class="card" id="guarderia">
-            <div class="card-header">
-              <img src="img/guarderia1.png" alt="Guardería" />
-            </div>
-            <div class="card-body">
-              <h3>Guardería</h3>
-              <p>Área de recreación para tus pequeñines, además de paseos matutinos.</p>
-              <a href="servicios.html#guarderia" class="button">Ver más...</a>
-            </div>
+            <!-- Tarjeta 6 -->  
+            <div class="card" id="guarderia">
+              <div class="card-header">
+                <img src="img/guarderia1.png" alt="Guardería" />
+              </div>
+              <div class="card-body">
+                <h3>Guardería</h3>
+                <p>Área de recreación para tus pequeñines, además de paseos matutinos.</p>
+                <a href="servicios.html#guarderia" class="button">Ver más...</a>
+              </div>
           </div>
         </div>
+        <button class="slider-btn next" onclick="scrollSlider(1)">›</button>
+      <!-- JavaScript para slider manual y automático -->
+    <script>
+      const slider = document.getElementById("cardSlider");
+
+      // Función para deslizar en dirección (1 siguiente, -1 anterior)
+      function scrollSlider(direction = 1) {
+        const cardWidth = slider.querySelector(".card").offsetWidth + 30;
+        slider.scrollBy({ left: direction * cardWidth, behavior: "smooth" });
+      }
+
+      // Deslizar automáticamente cada 10 segundos
+      setInterval(() => {
+        scrollSlider(1);
+      }, 10000);
+
+      // Si se llega al final, regresar al inicio
+      slider.addEventListener("scroll", () => {
+        const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+        if (slider.scrollLeft >= maxScrollLeft - 1) {
+          setTimeout(() => slider.scrollTo({ left: 0, behavior: "smooth" }), 4000);
+        }
+      });
+    </script>
     </section>
 
     <!-- Sección de productos -->
